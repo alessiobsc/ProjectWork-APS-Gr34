@@ -1,0 +1,81 @@
+{
+  "revealed_fields": [
+    {
+      "value": "student.matricola:0654321",
+      "index": 0,
+      "proof": [
+        "87c48de8b9015645e66fa89e4c7d43d11a65443761fa079cb5db050f204b8319",
+        "a5de6271574a0382385909b1bb11c315ba1aa561a864e5643e0ca2967f3ff6b7",
+        "c2adcb415e3f4b72964341b8f9613f5351125857fed6eeda3cb839faf33bc2e9",
+        "33c25619eccef1a878ae74b35b7759669af56b89005fa85a256c86a4ac0b6350"
+      ]
+    },
+    {
+      "value": "esami_superati[0].corso:Analisi 1",
+      "index": 3,
+      "proof": [
+        "c497fd5e34330df48c1c92287eeff5bf29823cda8f5ce1cc8fc02cffd5e315f3",
+        "ca7f3af020102f783e21b9ce0c80c06c8a2c35f82a69a1a4aaf6a9273f10d220",
+        "c2adcb415e3f4b72964341b8f9613f5351125857fed6eeda3cb839faf33bc2e9",
+        "33c25619eccef1a878ae74b35b7759669af56b89005fa85a256c86a4ac0b6350"
+      ]
+    },
+    {
+      "value": "esami_superati[1].corso:Algoritmi",
+      "index": 4,
+      "proof": [
+        "27bcfb405e971929fe0e827425fa4e39932ae01310f931624b63a26058d22861",
+        "0763fb403da78ecb4596466b604b359c08c42c632b25310557b3f7293ad32be6",
+        "250f809d30189c23b21b6957c01bea3a07ddcf88acebda05a5bcd4ba3fbb3b33",
+        "33c25619eccef1a878ae74b35b7759669af56b89005fa85a256c86a4ac0b6350"
+      ]
+    },
+    {
+      "value": "esami_superati[0].voto:28",
+      "index": 5,
+      "proof": [
+        "f778c70fe1da05b54bbaf1bd8c8fe377ac256970f96ac45252a4fef9e228feca",
+        "0763fb403da78ecb4596466b604b359c08c42c632b25310557b3f7293ad32be6",
+        "250f809d30189c23b21b6957c01bea3a07ddcf88acebda05a5bcd4ba3fbb3b33",
+        "33c25619eccef1a878ae74b35b7759669af56b89005fa85a256c86a4ac0b6350"
+      ]
+    },
+    {
+      "value": "esami_superati[1].voto:30",
+      "index": 6,
+      "proof": [
+        "262a1237d95fc357090ef54ec791d992f72fa0619203552186cecc7868bd57b4",
+        "e94ce4d26e192168364609f3771beecfdda937df5cac9f18b8e8046821d09836",
+        "250f809d30189c23b21b6957c01bea3a07ddcf88acebda05a5bcd4ba3fbb3b33",
+        "33c25619eccef1a878ae74b35b7759669af56b89005fa85a256c86a4ac0b6350"
+      ]
+    },
+    {
+      "value": "esami_superati[0].data_superamento:2023-06-12",
+      "index": 7,
+      "proof": [
+        "fd03b1d603a7577c808651f3d6009f601c602ee8c59e9162671984b7f5c02cb8",
+        "e94ce4d26e192168364609f3771beecfdda937df5cac9f18b8e8046821d09836",
+        "250f809d30189c23b21b6957c01bea3a07ddcf88acebda05a5bcd4ba3fbb3b33",
+        "33c25619eccef1a878ae74b35b7759669af56b89005fa85a256c86a4ac0b6350"
+      ]
+    },
+    {
+      "value": "esami_superati[1].data_superamento:2024-02-01",
+      "index": 8,
+      "proof": [
+        "0b092e1ce2c09f5cc6b64fed5ac09f3635b5f09adb2cb0d17e6593ec00622768",
+        "be9d54340e0086df0c6ec4bfa57e992db2867e20ba96cb65d3158f69651ad18d",
+        "b0e8c963469928bfda7bffdf34df06d08cc83457e0a2914da8309c8cb3958e15",
+        "b0b3dbc28e361d8b0a4406714b2431c3df8c0f0ecf2f3d857d951db4a447f4af"
+      ]
+    }
+  ],
+  "merkle_root": "28d49d7ffe49b2571610c4c043341e27afa359f9d191a328079e939a45d0cfbd",
+  "signature_root": "a67b987a4aee45088da71f2d22085c62cc0966439988590c20f6265e73575f2b12cdd2e49fe5748f0b3ad31d985b9038a66f307298edef30a3bf9cb78b47836344ad72bc7ed598a5962dec7fbdfc8231b4519d72765c14f203514c783fe34ad99399916edbdb55e5e6e077688fe23a0313e3681dfff96b3bc984ae5d068f1ffab8af9c606c04d5acb173e020c6a82f1f52c0854d2cf27570a2b14bb351e881cc9bab61f03bd4bda8ea4f3de14b46b674dfa49430d273aef9b46bff1e79710e1dec376de73807358b6ff0741a2becdae5e88a068dbad871632baab646ed91481499c850e8d0a7ffa19689dac2f1b4e99a11ce0d51279c6b27b1047e34f30a050f",
+  "signed_nonce": "409868a6683bee0d8e587b3fa59f1ebb7b02dc81db21c41db5b81f1b2af9a95571a4a3cdde37145bf242a06a61e172cd77c4a184cb4b0eb5e873934e525b0e2c74982c7912b195684f207a1fe029e56b4026aa3c81f6163917d4c5c33abd0db6fa8ef5208575bc9d0704a1e21810d7af0d82e0a91afd0e2533b1a2445e558f1a4c239f5c21545532a7faad59ed00299f1d95852a459ac6260c2ae441a67eaafda7cbfceb814f8b0f88e9299cb088af8577987314ebdace362f53e9cb337f59a59439b30be10a306980696f2f55f8bd3568b6096d5afa1eb978d3906681a6179f8baf13769fc706a7f339b11441ad925635eb1b46965a12f7cab1c101e72bd82f",
+  "issuer": "rennes.univ.fr",
+  "public_key_student": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0XMQlsg83NYR/BoePMjy\nbBHRz1H0Fx8nwmihi6qLKrvLnIHGVqA69id5ZUBktyyG2Qv6sgxoiltdLh6SlSTM\nkA4IJ2D/ID67Y1mTmDAU/Mo8jjnmD8uhG1h9Ore8lNVXBONeIFd7yedhiAf1IsDp\n6bzLWzZXbreQVBB86uXvzuZ+zPLAFmlyVMjaCKJHAhHbM9H3takEAcVPtgCT2T7u\nQ95+PoWGI8t4EMzRDze1JFsgd7I70aT3/VSrE78qneRt/Htyh4VyLDQgHIfebceC\nKDIDDWmPUduk7GED+E/MeSk2izRLejSAoiTrpRr68wZqS4jbZAYP8XaSOjQMOQz8\nnQIDAQAB\n-----END PUBLIC KEY-----\n",
+  "certificate_rennes": "-----BEGIN CERTIFICATE-----\nMIIEeDCCAmCgAwIBAgICEAEwDQYJKoZIhvcNAQELBQAwGjEYMBYGA1UEAwwPaW50\nZXJtZWRpYXRlIENBMB4XDTI1MDcxNjE4MDkzM1oXDTI2MDcyNjE4MDkzM1owHDEa\nMBgGA1UEAwwRcmVubmVzIHVuaXZlcnNpdHkwggEiMA0GCSqGSIb3DQEBAQUAA4IB\nDwAwggEKAoIBAQDS1JXl9mq1XPcnMF/bYXTaX1sB8u0qZs0W6qp9DXVD4i4Dw/AY\nsfaSVBHlxJU0cFHfX2ScIQ4LllQN/9bszEtNt7KPyCQqOgyxUUMmwQ+R87Iuny1S\ndhio+em/zuhLoChY9kvE+iKbgyfS6clgXOwDUI97yACASRpIc1Su5FOdkq4cGXNU\n8QsPABx72TVxXZm/UPTZd+peMkumxeF5Xij75BiuC1g33VZhFDDm87mRjTCFbhRK\nYHiFCfTGyTUR3vEFJ0qQgadp2o8im6e22qTzzQ57nxQOJ1QeI7PnUN7nd3LBOoSA\ng+JxIAi011nkg0DhBvhRaEdQkOinVzNLkgj/AgMBAAGjgcUwgcIwCQYDVR0TBAIw\nADARBglghkgBhvhCAQEEBAMCBaAwMwYJYIZIAYb4QgENBCYWJE9wZW5TU0wgR2Vu\nZXJhdGVkIENsaWVudCBDZXJ0aWZpY2F0ZTAdBgNVHQ4EFgQUeVILGc8yzSO9Itsq\n/Y3yCRSEilcwHwYDVR0jBBgwFoAU6CvABrORzD+EzgIOFDQCMD+4OZAwDgYDVR0P\nAQH/BAQDAgXgMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDANBgkqhkiG\n9w0BAQsFAAOCAgEAiQa1ryVexlCPd04nllH1rkCjGhRzcBbwX9KHM2uVaaU8fRdy\nN4HaMWaX3M1N0TcZY62/HImdMmgSoDf1Rji8sth6cSIduuR2A9raXSb3FN6Aw9/a\n475+gUY2vtWVgoz1adCGFhYIdmnv3y2xrPW5BQw3Abheec08nZ58Nvk9KOkyElsH\n9MnJQwMy2yM2LDerDyi1mjTLcRPekbV8ehsGmCBLlrPJXdqWI32h69QoVG7rrbt+\nW6uq5B5vWgGIhCW61upp+RMUt1uWUvAQslHKIIba+L8mVmqCBgIEhWeHFY9892J1\n/RawcPBUYPmrxJScnHgcStK5ES4erGWM/0hG1nTygqRWG65xiVFNtw4s8ige2IAy\nmmw+n/vnVlzHg249kHFl46w3B0Qn5pBBdJGigoE2SSyHSEURe90cuVatheOtXjxe\nh9Pqng/lh4UjlHOJ9LMoJdnt0Uhb+atUSva5NMHL5+SGHO9jL9c5SkeDqOACgUzT\nfZkrNaff7fcKwHRJ1HZXSXm9aUf2Y0O3TeVHA/EP1HuiEDyibP/0rsu8tbJdhzFi\nrG+dpQHFTN9OtwcYVM8sfPchuOwQMfI/BimcLB/Tq4hMRuX2XARs04GjD2R1uEOD\nbtEyPGLqsgd7EqZgv8g8hKqnXUn7qOLu3VuTTarfFg5b+F82ga+VvJj/2po=\n-----END CERTIFICATE-----\n",
+  "salt": "M4IAS3kRbg/1AyfT1L3kVQ=="
+}

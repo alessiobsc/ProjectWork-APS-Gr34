@@ -1,0 +1,2 @@
+V	260726180131Z		1000	unknown	/CN=salerno university
+V	260726180933Z		1001	unknown	/CN=rennes university
