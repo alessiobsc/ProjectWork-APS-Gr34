@@ -19,7 +19,7 @@ npm install -g truffle
 ## 📦 Installazione delle dipendenze
 
 ### 1. Moduli Node per la blockchain
-Spostati nella cartella `blockchain/` ed esegui:
+Spostarsi nella cartella `blockchain/` ed eseguire:
 
 ```bash
 cd blockchain
