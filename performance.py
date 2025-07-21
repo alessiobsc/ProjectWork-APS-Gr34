@@ -6,13 +6,22 @@ def get_package_size(path="package_to_verify.json"):
     print(f"📦 Dimensione del pacchetto cifrato: {size_bytes / 1024:.2f} KB")
     return size_bytes
 
+# Dimensione della credenziale selezionata per l'invio
+def get_revealed_data_size(revealed_fields):
+    total_size = 0
+    for field in revealed_fields:
+        field_json = json.dumps(field)
+        total_size += len(field_json.encode('utf-8'))
+    print(f"🔍 Dimensione totale dei campi rivelati + proof: {total_size / 1024:.2f} KB")
+    return total_size
+
 def analyze_merkle_proofs(revealed_fields):
     print("📊 Analisi delle Merkle Proofs...")
     total_nodes = 0
     for i, field in enumerate(revealed_fields):
         proof_len = len(field["proof"])
         total_nodes += proof_len
-    print(f"   Proofs: {proof_len} nodi")
+    print(f"   Proof: {proof_len} nodi")
 
     print(f"📈 Totale attributi rivelati: {len(revealed_fields)}")
     print(f"📈 Totale nodi nelle proof: {total_nodes}")
@@ -42,6 +51,8 @@ if __name__ == "__main__":
     student_pubkey_path = "studente.pub.pem"
 
     get_package_size()
+    get_revealed_data_size(revealed_fields)
+
     _, sig_root_time = timed(" Tempo firma root", verify_signature_on_root, root, signature_root, rennes_cert)
     _, revocation_time = timed(" Tempo controllo revoca", check_revocation, root)
     _, nonce_time = timed(" Tempo firma nonce", verify_signed_nonce, nonce, signed_nonce, student_pubkey_path)

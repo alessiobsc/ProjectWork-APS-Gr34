@@ -12,3 +12,5 @@ def generate_nonce(length=16, filename="nonce.txt"):
 
     print(f"✅ Nonce generato e salvato in '{filename}': {nonce}")
     return nonce
+
+generate_nonce(filename="nonce.txt")

@@ -54,10 +54,6 @@ Il progetto è suddiviso in script Python autonomi per ogni attore del sistema:
 - `salerno.py` → verifica delle presentazioni ricevute
 - `revoke.js` / `check.js` → revoca e verifica su blockchain (nella directory del progetto blockchain/scripts)
 
-
-Gli script si aspettano che i pacchetti `.json` siano generati e disponibili nei percorsi corretti (`encrypted_package.json`, `package_to_verify.json`, `nonce.txt`, ecc.).
-
-
 ## 🔐 Certificati
 
 I certificati delle università sono generati con OpenSSL e salvati in formato PEM. È necessario averli già creati tramite la CA, come descritto nel report tecnico.
